@@ -2,7 +2,7 @@ name: Automated Commit
 
 on:
   push:
-    branches: [main]
+    branches: [master]
   schedule:
     - cron: '*/10 * * * *'
   workflow_dispatch:
