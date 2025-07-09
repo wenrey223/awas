@@ -35,7 +35,7 @@ jobs:
           instance=${{ matrix.instance }}
           today=$(date '+%Y-%m-%d')
           now=$(date '+%Y-%m-%d %H:%M:%S')
-          MAX_COMMITS_PER_DAY=1000
+          MAX_COMMITS_PER_DAY=100000
           count_file="DAILY_COMMIT_COUNT${instance}.txt"
           ts_file="TIMESTAMP${instance}.txt"
           if [ -f "$count_file" ]; then
