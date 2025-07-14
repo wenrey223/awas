@@ -1,4 +1,4 @@
-name: Automated Commit
+name: Automateds Commit
 
 on:
   push:
